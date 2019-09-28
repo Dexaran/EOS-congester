@@ -1,0 +1,113 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "call",
+            "base": "",
+            "fields": [
+                {
+                    "name": "ix",
+                    "type": "uint64"
+                },
+                {
+                    "name": "id",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "clear",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "countert",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "value",
+                    "type": "uint64"
+                },
+                {
+                    "name": "allow_cyclic",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "set",
+            "base": "",
+            "fields": [
+                {
+                    "name": "from",
+                    "type": "name"
+                },
+                {
+                    "name": "delay",
+                    "type": "uint64"
+                },
+                {
+                    "name": "defer",
+                    "type": "uint64"
+                },
+                {
+                    "name": "repeat",
+                    "type": "uint64"
+                },
+                {
+                    "name": "id",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "setstat",
+            "base": "",
+            "fields": [
+                {
+                    "name": "s",
+                    "type": "uint64"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "call",
+            "type": "call",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "clear",
+            "type": "clear",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "set",
+            "type": "set",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "setstat",
+            "type": "setstat",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "countert",
+            "type": "countert",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": []
+}
